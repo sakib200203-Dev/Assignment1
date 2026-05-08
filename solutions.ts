@@ -1,5 +1,5 @@
 //problem 1:
-/*function filterEvenNumbers(numbers:number[]):number[]{
+function filterEvenNumbers(numbers:number[]):number[]{
     return numbers.filter((value:number)=>value%2==0);
 
 }
@@ -63,9 +63,11 @@ class Student extends Person{
          )
 }}
 const student = new Student("Alice", 20, "A");
-student.getDetails();*/
+student.getDetails();
 //problem 7:
 function getIntersection(array1:number[],array2:number[]):number[]{
     return array1.filter(value=>array2.includes(value));
 }
 console.log( getIntersection([1, 2, 3, 4, 5], [3, 4, 5, 6, 7]));
+/*Blog-1 End Here */
+/*************************************************** */ 
